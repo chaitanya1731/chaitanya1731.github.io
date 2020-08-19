@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio - Chaitanya Kulkarni</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="vendor/webfonts/fontawesome-all.min.css"> -->
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/style.custom-ck.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/ck.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Chaitanya Kulkarni</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Skills</a></li>
+              <!-- <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li> -->
+              <li class="nav-item"><a href="Resume.pdf" class="nav-link" target="_blank">Resume</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">Portfolio</a></li>
+              <!-- <li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li> -->
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <!-- <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div> -->
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello World; <br> I AM CHAITANYA KULKARNI</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">Computer Science Graduate Student at Binghamton University. CGPA: 3.9/4.0</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div data-animate="fadeInUp" class="col-sm-6 mx-auto" style="padding: 30px;">
+              <img src="img/about.jpg" alt="This is me - IT worker" class="image img-fluid" id="dp">
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <p class="text-justify">Hi, I am Chaitanya Kulkarni, a <strong>passionate Web Developer </strong>and <strong>Machine Learning enthusiast.</strong></p>
+            <p class="text-justify">I code in a variety of languages, but javaScript is my best friend.</p>
+            <p class="text-justify">I am currently pursuing my Master's degree in Computer Science from Binghamton University, New York, US. I completed my Bachelor's degree from Savitribai Phule Pune University, India.</p>
+            <p class="text-justify">Learning new skills and developing my skill-set is what I thrive for. Teamwork, Time management, and Leadership are some qualities that I have which I'm proud of.</p>
+            <p class="text-justify">My areas of interest include Web Development, Machine Learning, Artificial Intelligence, Computer Security and Cloud Computing.</p>
+            <p class="text-justify">I devote my spare time to cook, sketch, and travel.</p>
+            <p class="text-justify">Hire me? see my <a href="Resume.pdf" class="logo" target="_blank"><strong>resume</strong></a>.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Skills</h2>
+        </header>
+        <hr data-animate="fadeInUp">
+        <table>
+          <tr>
+            <td><h4>Languages and Technology</h4></td>
+            <td>C, C++, C#, Java, Python, HTML, CSS, JavaScript, ES6, Bootstrap, jQuery, NodeJs, KnockoutJS, ReactJS, AngularJS, 
+              XML, JSON, Kendo UI, ASP.NET MVC, Entity Framework, JSP, Java Spring Boot, MSBI, Ionic Framework, Google Firebase, REST APIs, LaTeX, OpenSSL</td>
+          </tr>
+          <tr>
+            <td><h4>Databases</h4></td>
+            <td>SQL Server, MySQL, MongoDB, Oracle 11g</td>
+          </tr>
+          <tr>
+            <td><h4>Tools</h4></td>
+            <td>Git, Visual Studio, Eclipse, Arduino IDE, IDLE, PuTTY client, INFOR OLAP application studio and Office Plus</td>
+          </tr>
+          <tr>
+            <td><h4>Hardware</h4></td>
+            <td>Arduino UNO, RaspberryPi 2/3, Intel Edison</td>
+          </tr>
+        </table>
+        <!-- <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon"><i class="fa fa-search"></i></div>
+            <h3 class="heading mb-3 text-400">Languages and Technologies</h3>
+            <p class="text-justify description">C, C++, C#, Java, Python, HTML, CSS, JavaScript, ES6, Bootstrap, jQuery, NodeJs, KnockoutJS, ReactJS, AngularJS, XML, JSON, Kendo UI, ASP.NET MVC, Entity Framework, JSP, Java Spring Boot, MSBI, Ionic Framework, Google Firebase, REST APIs, LaTeX, OpenSSL</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon"><i class="fa fa-tachometer"></i></div>
+            <h3 class="heading mb-3 text-400">Databases</h3>
+            <p class="text-justify description">SQL Server, MySQL, MongoDB, Oracle 11g</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon"><i class="fa fa-tachometer"></i></div>
+            <h3 class="heading mb-3 text-400">Tools</h3>
+            <p class="text-justify description">Git, Visual Studio, Eclipse, Arduino IDE, IDLE, PuTTY client, INFOR OLAP application studio and Office Plus</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3">
+            <div class="icon"><i class="fa fa-tachometer"></i></div>
+            <h3 class="heading mb-3 text-400">Hardware</h3>
+            <p class="text-justify description">Arduino UNO, RaspberryPi 2/3, Intel Edison</p>
+          </div>
+        </div> -->
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Interesting? You probably might want to checkout my LinkedIn or GitHub</p>
+          <p>
+            <a href="https://www.linkedin.com/in/iamchaitanyakulkarni/" class="btn btn-outline-light link-scroll"  target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/chaitanya1731" class="btn btn-outline-light link-scroll"  target="_blank"><i class="fa fa-github"></i> GitHub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ---------REFERENCES--------- -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">My work</h2>
+            <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects, checkout my latest ones below.</p>
+          </div>
+          <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">All</a></li>
+            <li><a href="#" data-filter="web">Web</a></li>
+            <li><a href="#" data-filter="ml">ML</a></li>
+            <li><a href="#" data-filter="security">Security</a></li>
+            <li><a href="#" data-filter="other">Other</a></li>
+          </ul>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+
+              <div data-category="other" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-12/main.png" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Web Crawler</h3>
+                        <p>Python, Beautiful Soup</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-12/one.png" class="sr-only reference-description">
+                    <p>Currently developing a web crawler (spiderbot) that systematically scrapes the useful information from the list of URLs.</p>
+                    <p>Images and code not attached for confidentiality purposes.</p>
+                    <p>Technologies - Python, Beautiful Soup</p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="ml" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-1/plot1.png" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Sentiment Analysis of IMDB Movie Reviews</h3>
+                        <p>Python - Naive Bayes, SVM, Logistic Regression</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-1/ss1.PNG,img/prj-1/op.PNG,img/prj-1/Plot.png" class="sr-only reference-description">
+                    <p>Huge textual data is available on IMDB and analyzing such massive data manually is a tedious task. So, to speed up the process, we have used sentiment analysis.</p>
+                    <p>Compared and determined the success of the movies (positive, negative, neutral) based on the classification of emotions within text reviews of movies on IMDB website using text analysis techniques.</p>
+                    <p>Programming Language used - Python</p>
+                    <p>Libraries - sklearn, nltk, gensim</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Sentiment-Analysis-of-IMDB-Movie-Reviews" class="btn btn-outline-primary"  target="_blank"><i class="fa fa-code"></i> View Code</a>
+                      <a href="img/prj-1/report.pdf" class="btn btn-outline-primary" target="_blank"><i class="fa fa-file-pdf-o"></i> View Report</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="security" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-2/main.PNG" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Client - Server using Secure Socket Layer (SSL).</h3>
+                        <p>C++, OpenSSL</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-2/op1.PNG,img/prj-2/op2.PNG" class="sr-only reference-description">
+                    <p>Implemented a client - server communication using Secure Socket Layer (SSL). SSL enables to
+                      establish a secure connection between the server and the client. Upon connection, the client
+                      prompts the user to enter his/her ID and password. After the user enters the ID and the password,
+                      the client sends the ID and the password to the server through SSL connection.</p>
+                    <p>After the server receives the ID and the password, the server verifies the ID and the password. If
+                      the ID and the password are correct, then the server sends “correct ID and password” to the client
+                      and terminates. Otherwise, the server sends “incorrect ID and password” to the client and
+                      terminates.</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Client-Server-Communication-using-SSL" class="btn btn-outline-primary"  target="_blank"><i class="fa fa-code"></i> View Code</a>
+                      <!-- <a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a> -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="security" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-3/main.PNG" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Monoaplhabetic Cipher in CPP</h3>
+                        <p>C++</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-3/op.PNG" class="sr-only reference-description">
+                    <p>Implemented the monoalphabetic cipher to encrypt/decrypt files containing only lower-case letters a-z.</p>
+                    <p>Program (both encryption and decryption) prints the mappings generated between the plaintext letters and
+                      the ciphertext letters. The mappings are printed using the format a-c1, b-c2, …, z-c26, where ci is the
+                      corresponding cyphertext letter, and c1\=c2\=…\=c26.</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Monoalphabetic-Cipher-in-cpp" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Case Study</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="web" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-8/main.PNG" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Blogging System</h3>
+                        <p>MongoDb, JavaScript, Mustache JS, express JS APIs, JQuery, HTML and CSS</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-8/two.PNG,img/prj-8/four.PNG,img/prj-8/five.PNG" class="sr-only reference-description">
+                    <p>Developed a web application blogging system in nodeJs where users can post their articles and can comment on any article. 
+                      Basic CRUD functionality to update users, articles and comments. </p>
+                    <p>Implemented api services that acts as an interface with the functionality of the backend business logic and helps retrieve and/or change the data from mongodb database.</p>
+                    <p>Technologies - MongoDb, JavaScript, Mustache JS, express JS APIs, JQuery, HTML and CSS</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Web-Projects/tree/master/prj4-sol" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="ml" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-4/dexter.PNG" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Dexter Assistant</h3>
+                        <p>Python, NLP, NLTK, Kivy, Speech Recognition, Machine Learning</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-4/dexter.PNG" class="sr-only reference-description">
+                    <p>Implemented a Chatbot named Dexter using Python who is trained using Machine Learning Algorithms.
+                    <p>Incorporated a Corpus of questions and answers for training and modifying to add features of AI and Image Recognition.</p>
+                    <p>Images and code not attached for confidentiality purposes.</p>
+                    <p>Technologies - Python, Natural Language Processing, NLTK, Kivy, Speech Recognition, Machine Learning</p>
+                    <p>To know more about similar Chatbot - <a href="https://chatterbot.readthedocs.io/en/stable/" target="_blank"><u>refer this link</u></a></p>
+                  </div>
+                </div>
+              </div>  
+              <div data-category="ml" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-11/main.png" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Perceptrons and Neural Networks for Text Classification</h3>
+                        <p>Python, Convolutional Neural Networks</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-11/pt.PNG,img/prj-11/pt2.PNG" class="sr-only reference-description">
+                    <p>Implemented the Perceptron algorithm for text classification on the dataset consisting of two sets - training and testing set. Each set has two directories: spam and ham. 
+                      All files in the spam folder are spam messages, and files in the ham folder are legitimate (non-spam) messages.</p>
+                    <p>Trained the system to classify the messages into spam or ham messages from the testing dataset and printed the accuracy. Filtered the dataset using stopwords and reported the accuracy of the filtered dataset.</p>
+                    <p>Compared the results with the implementation of the Multinomial Naive Bayes Algorithm.</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Perceptron---Machine-Learning" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="ml" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-10/main.jpeg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Naive Bayes for Text Classification</h3>
+                        <p>Python, Machine Learning, Naive Bayes, Classification</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-10/nb.PNG" class="sr-only reference-description">
+                    <p>Implemented the multinomial Naive Bayes algorithm for text classification on the dataset consisting of two sets - training and testing set. Each set has two directories: spam and ham. 
+                      All files in the spam folder are spam messages, and files in the ham folder are legitimate (non-spam) messages.</p>
+                    <p>Trained the system to classify the messages into spam or ham messages from the testing dataset and determine the accuracy. Filtered the dataset using stopwords and reported the accuracy of the filtered dataset.</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Naive-Bayes---Machine-Learning" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="ml" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-9/main.png" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Decision Tree Learning Algorithm</h3>
+                        <p>Python, Machine Learning, Decision Tree</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-9/dt.PNG" class="sr-only reference-description">
+                    <p>Implemented the Decision Tree Algorithm to determine the next attribute using two heuristics - Information Gain heuristic and Variance Impurity heuristic.</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Decision-Tree" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="web" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-5/main.png" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Blood Bank Management System</h3>
+                        <p>Java, JSP, Oracle Db 11g, HTML, CSS, XML, JavaScript, Bootstrap, Apache Tomcat server 7</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-5/one.PNG,img/prj-5/two.PNG,img/prj-5/three.PNG,img/prj-5/four.PNG" class="sr-only reference-description">
+                    <p>Developed a Web-application in JSP having CRUD functionalities such as Register Donor, 
+                      Register Organization, Login Donor, Login Organization, Display availability of Blood using blood group, 
+                      Connect Donor with Organization, Display Donor Details, and Contact information, etc.</p>
+                    <p>Technologies - Java, JSP, Oracle Db 11g, HTML, CSS, XML, JavaScript, Bootstrap, Apache Tomcat Server 7</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Blood-Bank-Management-in-JSP" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="web" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-6/main.png" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Internet Banking System</h3>
+                        <p>Java, Servlet, Oracle Db 11g, HTML, Apache Tomcat server 7</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-6/one.PNG,img/prj-6/two.PNG,img/prj-6/three.PNG,img/prj-6/four.PNG" class="sr-only reference-description">
+                    <p>Developed a Web-application in Java Servlet providing all the Internet Banking Functionalities such as 
+                      Register User, Login User, Credit, Deposit, Transaction Details, Banking statements, 
+                      etc. and deployed using Apache Tomcat Server 7.</p>
+                    <p>Technologies - Java, Servlet, Oracle Db 11g, HTML, Apache Tomcat server 7</p>
+                    <p class="buttons text-center">
+                      <a href="https://github.com/chaitanya1731/Internet-Banking-in-Java" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="other" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-7/main.jpg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Voice Controlled Personal Assistant and Connecting IOT Devices</h3>
+                        <p>C++, Arduino, Python, Raspberry Pi, Java, Android, NLP, Speech Recognition</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/prj-7/arck.jpg, img/prj-7/two.jpg, img/prj-7/arch.png, img/prj-7/iot.png, img/prj-7/speech.png" class="sr-only reference-description">
+                    <p>Built a hardware device that captures the audio presented as the human voice and subsequently processes them using AI techniques to respond individually through Speaker.</p>
+                    <p>Along with the hardware assistant device, we also had one IoT box and an android application. 
+                      IoT box consisting of 3 modules – Drapes control, Mini LED screen, and Neo-pixels lights to show how we can turn on/off these modules just by our voice commands or by an android application. 
+                      Also, demonstrated the interconnectivity of all three devices and how they work in a synchronized manner. </p>
+                    <p>Technologies - C++, Arduino, Python, Raspberry Pi, Java, Android, NLP, Speech Recognition</p>
+                    <p><strong>Citation - </strong>Abhay Dekate, Chaitanya Kulkarni, Rohan Killedar  "Study of Voice Controlled Personal Assistant Device". International Journal of Computer Trends and Technology (IJCTT) V42(1):42-46, December 2016. ISSN:2231-2803. www.ijcttjournal.org. Published by Seventh Sense Research Group.</p>
+                    <p class="buttons text-center">
+                      <a href="http://www.ijcttjournal.org/archives/ijctt-v42p107" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Journal</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+            
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="bg-gray contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+        </header>
+        
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">I'd love to work with you. Hit me up!</p>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div class="row">
+            <div class="col-md-4 text-center">
+              <div class="contact-address">
+                <i class="fa fa-map-marker fa-2x"></i>
+                <h3>Address</h3>
+                <address>Binghamton, New York, USA</address>
+              </div>
+            </div>
+  
+            <div class="col-md-4 text-center">
+              <div class="contact-phone">
+                <i class="fa fa-phone fa-2x"></i>
+                <h3>Call me on</h3>
+                <p><a href="tel:+91 9766917769">+1 607 304 1931</a></p>
+              </div>
+            </div>
+  
+            <div class="col-md-4 text-center">
+              <div class="contact-email">
+                <i class="fa fa-envelope fa-2x"></i>
+                <h3>Send an Email</h3>
+                <p><a href="mailto:chaitanya1731@hotmail.com">chaitanya1731@hotmail.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
+    <!-- <div id="map"></div> -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social">
+              <a href="https://www.facebook.com/iamchaitanyakulkarni"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/iamchaitanyakulkarni/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/iamchaitanyakulkarni/"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/chaitanya1731"><i class="fa fa-github"></i></a>
+              <a href="mailto:chaitanya1731@hotmail.com"><i class="fa fa-envelope"></i></a></p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© 2020 CHAITANYA1731.GITHUB.IO | BY CHAITANYA KULKARNI</p>
+          </div>
+          <div class="col-12 mt-4">
+            <!-- <p class="template-bootstrapious">Template by <a href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a href="https://fity.cz/ostrava">Fity</a></p> -->
+            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+  <style>
+    td {
+      padding: 10px;
+      font-size: large;
+    }
+    #dp {
+      border: 1px solid #555; 
+    }
+  </style>
+</html>
