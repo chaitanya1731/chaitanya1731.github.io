@@ -113,7 +113,7 @@
           </tr>
           <tr>
             <td><h4>Backend</h4></td>
-            <td>NodeJs (Express), .NET, Spring Boot </td>
+            <td>NodeJs (Express), .NET, Spring Boot & MVC</td>
           </tr>
           <tr>
             <td><h4>Other Technologies</h4></td>
@@ -172,7 +172,7 @@
         <div class="col-sm-12">
           <div class="mb-5 text-center">
             <h2 data-animate="fadeInUp" class="title">My work</h2>
-            <p data-animate="fadeInUp" class="lead">I have worked on quite a few projects, checkout my latest ones below.</p>
+            <p data-animate="fadeInUp" class="lead">I have worked on quite a few projects, checkout my latest ones below. <a href="https://bit.ly/ckProjects" class="logo" target="_blank"><strong><u>View PDF</u></strong></a> </p>
           </div>
           <ul id="filter" data-animate="fadeInUp">
             <li class="active"><a href="#" data-filter="all">All</a></li>
@@ -196,18 +196,20 @@
           <div id="references-masonry" data-animate="fadeInUp">
             <div class="row">
 
-              <div data-category="other" class="reference-item col-lg-4 col-md-6">
+              <div data-category="web" class="reference-item col-lg-4 col-md-6">
                 <div class="reference"><a href="#"><img src="img/prj-12/main.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
-                        <h3 class="h4 reference-title">Web Crawler</h3>
-                        <p>Python, Beautiful Soup</p>
+                        <h3 class="h4 reference-title">Web Spider for Dataset Generation</h3>
+                        <p>Python 3.8, Beautiful Soup, whois, pandas</p>
                       </div>
                     </div></a>
                   <div data-images="img/prj-12/one.png" class="sr-only reference-description">
-                    <p>Currently developing a web crawler (spiderbot) that systematically scrapes the useful information from the list of URLs.</p>
-                    <p>Images and code not attached for confidentiality purposes.</p>
-                    <p>Technologies - Python, Beautiful Soup</p>
+                    <p>Designed and Developed a web spider in python that crawls the website data into text using a Beautiful Soup python library 
+                      and extracts useful data from HTML tags to help construct a meaningful dataset for the detection of phishing websites</p>
+                    <p>Integrated whois lookup API and gathered URL metadata such as domain ownership and registration details, IP addresses, ranks, etc. for generating a rich dataset</p>
+                    <p>Images and code not attached for organizational confidentiality purposes.</p>
+                    <p>Technologies - Python 3.8, Beautiful Soup, whois, pandas</p>
                   </div>
                 </div>
               </div>
@@ -216,13 +218,16 @@
                     <div class="overlay">
                       <div class="inner">
                         <h3 class="h4 reference-title">Sentiment Analysis of IMDB Movie Reviews</h3>
-                        <p>Python - Naive Bayes, SVM, Logistic Regression</p>
+                        <p>Python 3.8, sklearn, NLTK, gensim</p>
                       </div>
                     </div></a>
                   <div data-images="img/prj-1/ss1.PNG,img/prj-1/op.PNG,img/prj-1/Plot.png" class="sr-only reference-description">
-                    <p>Huge textual data is available on IMDB and analyzing such massive data manually is a tedious task. So, to speed up the process, we have used sentiment analysis.</p>
-                    <p>Compared and determined the success of the movies (positive, negative, neutral) based on the classification of emotions within text reviews of movies on IMDB website using text analysis techniques.</p>
-                    <p>Technologies - Python, sklearn, nltk, gensim</p>
+                    <p>Constructed a model to determine the success rate of the movies (positive, negative, neutral) based on the classification of emotions
+                       within text reviews of movies on IMDB website using classifiers such as Logistic Regression, Support Vector Machine, and Naive Bayes</p>
+                    <p>Preprocessed the dataset by removing HTML tags, Lemmatization, filtering stop words and special characters, and Text Tokenization</p>
+                    <p>Feature Extraction using the Bag-of-Words approach which uses Count-Vectorizer that turns arbitrary text into fixed-length vectors by counting the frequency of each word</p>
+                    <p>Compared the accuracy of classifiers and discovered that Logistic Regression outperformed SVM and Naïve Bayes</p>
+                    <p>Technologies - Python 3.8, sklearn, NLTK, gensim</p>
                     <p class="buttons text-center">
                       <a href="https://github.com/chaitanya1731/Sentiment-Analysis-of-IMDB-Movie-Reviews" class="btn btn-outline-primary"  target="_blank"><i class="fa fa-code"></i> View Code</a>
                       <a href="img/prj-1/report.pdf" class="btn btn-outline-primary" target="_blank"><i class="fa fa-file-pdf-o"></i> View Report</a>
@@ -234,19 +239,16 @@
                 <div class="reference"><a href="#"><img src="img/prj-2/main.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
-                        <h3 class="h4 reference-title">Client - Server using Secure Socket Layer (SSL).</h3>
+                        <h3 class="h4 reference-title">Secure Client-Server Communication using SSL</h3>
                         <p>C++, OpenSSL</p>
                       </div>
                     </div></a>
                   <div data-images="img/prj-2/op1.PNG,img/prj-2/op2.PNG" class="sr-only reference-description">
-                    <p>Implemented a client - server communication using Secure Socket Layer (SSL). SSL enables to
-                      establish a secure connection between the server and the client. Upon connection, the client
-                      prompts the user to enter his/her ID and password. After the user enters the ID and the password,
-                      the client sends the ID and the password to the server through SSL connection.</p>
-                    <p>After the server receives the ID and the password, the server verifies the ID and the password. If
-                      the ID and the password are correct, then the server sends “correct ID and password” to the client
-                      and terminates. Otherwise, the server sends “incorrect ID and password” to the client and
-                      terminates.</p>
+                    <p>Implemented a secure connection between client and server using TLS 1.2 protocol using OpenSSL in C 
+                      wherein a client sends the request to the server that contains cryptographic data, 
+                      the server then verifies the data and sends a proper response to the client</p>
+                    <p>Generated the server's customized digital certificate for the mutual authentication that is verified by the client 
+                      which provides identification, authentication, confidentiality, and integrity to the established connection</p>
                     <p class="buttons text-center">
                       <a href="https://github.com/chaitanya1731/Client-Server-Communication-using-SSL" class="btn btn-outline-primary"  target="_blank"><i class="fa fa-code"></i> View Code</a>
                       <!-- <a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a> -->
@@ -263,10 +265,11 @@
                       </div>
                     </div></a>
                   <div data-images="img/prj-3/op.PNG,img/prj-3/op2.PNG" class="sr-only reference-description">
-                    <p>Implemented the monoalphabetic cipher to encrypt/decrypt files containing only lower-case letters a-z.</p>
+                    <p>Implemented the substitution cipher method called Monoalphabetic cipher in C++ to encrypt the given plaintext string into a ciphertext 
+                      for secure transmission and decrypted the generated ciphertext back into plaintext using an autogenerated key</p>
                     <p>Program (both encryption and decryption) prints the mappings generated between the plaintext letters and
                       the ciphertext letters. The mappings are printed using the format a-c1, b-c2, …, z-c26, where ci is the
-                      corresponding cyphertext letter, and c1\=c2\=…\=c26.</p>
+                      corresponding cyphertext letter, and c1\=c2\=…\=c26</p>
                     <p class="buttons text-center">
                       <a href="https://github.com/chaitanya1731/Monoalphabetic-Cipher-in-cpp" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
                     </p>
@@ -277,15 +280,16 @@
                 <div class="reference"><a href="#"><img src="img/prj-8/main.PNG" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
-                        <h3 class="h4 reference-title">Blogging System</h3>
-                        <p>MongoDb, JavaScript, Mustache JS, express JS APIs, JQuery, HTML and CSS</p>
+                        <h3 class="h4 reference-title">Internet Blogging System</h3>
+                        <p>MongoDB, JavaScript, Mustache JS, express JS APIs, JQuery, HTML5 and CSS3</p>
                       </div>
                     </div></a>
                   <div data-images="img/prj-8/two.PNG,img/prj-8/four.PNG,img/prj-8/five.PNG" class="sr-only reference-description">
-                    <p>Developed a web application blogging system in nodeJs where users can post their articles and can comment on any article. 
-                      Basic CRUD functionality to update users, articles and comments. </p>
-                    <p>Implemented api services that acts as an interface with the functionality of the backend business logic and helps retrieve and/or change the data from mongodb database.</p>
-                    <p>Technologies - MongoDb, JavaScript, Mustache JS, express JS APIs, JQuery, HTML and CSS</p>
+                    <p>Developed a web application blogging system in nodeJs where users can register themselves, 
+                      can edit/ update their account information, post or edit articles, and comment on any article</p>
+                    <p>Designed user interface using the javaScript’s Logic-Less template library called MustacheJS and business logic in backend and error handling using NodeJS</p>
+                    <p>Implemented REST APIs using ExpressJS that acts as an interface with the functionality of the backend business logic and helps retrieve or change the data from MongoDB database</p>
+                    <p>Technologies - MongoDB, JavaScript, Mustache JS, express JS APIs, JQuery, HTML5 and CSS3</p>
                     <p class="buttons text-center">
                       <a href="https://github.com/chaitanya1731/Web-Projects/tree/master/prj4-sol" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
                     </p>
@@ -296,15 +300,16 @@
                 <div class="reference"><a href="#"><img src="img/prj-4/dexter.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
-                        <h3 class="h4 reference-title">Dexter Assistant</h3>
-                        <p>Python, NLP, NLTK, Kivy, Speech Recognition, Machine Learning</p>
+                        <h3 class="h4 reference-title">Dexter Chatbot</h3>
+                        <p>Python 2.7, Kivy, Google Speech Recognition, NLTK</p>
                       </div>
                     </div></a>
                   <div data-images="img/prj-4/dexter.png" class="sr-only reference-description">
-                    <p>Implemented a Chatbot named Dexter using Python who is trained using Machine Learning Algorithms.
-                    <p>Incorporated a Corpus of questions and answers for training and modifying to add features of AI and Image Recognition.</p>
-                    <p>Images and code not attached for confidentiality purposes.</p>
-                    <p>Technologies - Python, Natural Language Processing, NLTK, Kivy, Speech Recognition, Machine Learning</p>
+                    <p>Implemented a software chatbot named Dexter in python that can engage in conversation with users</p>
+                    <p>Incorporated a corpus of questions & answers that trains the bot using machine learning algorithms</p>
+                    <p>Designed the interactive UI using kivy library in python that allows users to input text via keyboard or voice input via microphone</p>
+                    <p>Images and code not attached for organizational confidentiality purposes</p>
+                    <p>Technologies - Python 2.7, Kivy, Google Speech Recognition, NLTK</p>
                     <p>To know more about similar Chatbot - <a href="https://chatterbot.readthedocs.io/en/stable/" target="_blank"><u>refer this link</u></a></p>
                   </div>
                 </div>
@@ -313,35 +318,36 @@
                 <div class="reference"><a href="#"><img src="img/prj-11/main.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
-                        <h3 class="h4 reference-title">Perceptrons and Neural Networks for Text Classification</h3>
-                        <p>Python, Convolutional Neural Networks</p>
+                        <h3 class="h4 reference-title">Email Spam/Ham Detection using Text Classification</h3>
+                        <p>Python 3.8, Naive Bayes, Support Vector Machines, Perceptrons and Neural Networks</p>
                       </div>
                     </div></a>
-                  <div data-images="img/prj-11/pt.PNG,img/prj-11/pt2.PNG" class="sr-only reference-description">
-                    <p>Implemented the Perceptron algorithm for text classification on the dataset consisting of two sets - training and testing set. Each set has two directories: spam and ham. 
-                      All files in the spam folder are spam messages, and files in the ham folder are legitimate (non-spam) messages.</p>
-                    <p>Trained the system to classify the messages into spam or ham messages from the testing dataset and printed the accuracy. Filtered the dataset using stopwords and reported the accuracy of the filtered dataset.</p>
-                    <p>Compared the results with the implementation of the Multinomial Naive Bayes Algorithm.</p>
+                  <div data-images="img/prj-11/pt.PNG,img/prj-11/pt2.PNG,img/prj-11/main.jpeg,img/prj-11/nb.PNG" class="sr-only reference-description">
+                    <p>Trained the system to classify the emails into spam or ham from the testing dataset using various techniques such as single and multi-layer perceptron, 
+                      SVM’s, and probabilistic based classifiers such as Decision tree and Naïve Bayes</p>
+                    <p>Data Preprocessing using tokenization, vectorization, language translation, and filtering stopwords</p>
+                    <p>Compared and determined the accuracy of classifiers and discovered that SVM outperformed other two classifiers</p>
+                    <p>Technologies - Python 3.8, Naive Bayes, Support Vector Machines, Perceptrons and Neural Networks</p>
                     <p class="buttons text-center">
-                      <a href="https://github.com/chaitanya1731/Perceptron---Machine-Learning" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
+                      <a href="https://github.com/chaitanya1731/Perceptron---Machine-Learning" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Perceptron Code</a>
+                      <a href="https://github.com/chaitanya1731/Naive-Bayes---Machine-Learning" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Naïve Bayes Code</a>
                     </p>
                   </div>
                 </div>
               </div>
-              <div data-category="ml" class="reference-item col-lg-4 col-md-6">
-                <div class="reference"><a href="#"><img src="img/prj-10/main.jpeg" alt="" class="img-fluid">
+              <div data-category="security" class="reference-item col-lg-4 col-md-6">
+                <div class="reference"><a href="#"><img src="img/prj-10/main.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
-                        <h3 class="h4 reference-title">Naive Bayes for Text Classification</h3>
-                        <p>Python, Machine Learning, Naive Bayes, Classification</p>
+                        <h3 class="h4 reference-title">Secure Password Management using AES</h3>
+                        <p>Java</p>
                       </div>
                     </div></a>
-                  <div data-images="img/prj-10/nb.PNG" class="sr-only reference-description">
-                    <p>Implemented the multinomial Naive Bayes algorithm for text classification on the dataset consisting of two sets - training and testing set. Each set has two directories: spam and ham. 
-                      All files in the spam folder are spam messages, and files in the ham folder are legitimate (non-spam) messages.</p>
-                    <p>Trained the system to classify the messages into spam or ham messages from the testing dataset and determine the accuracy. Filtered the dataset using stopwords and reported the accuracy of the filtered dataset.</p>
+                  <div data-images="img/prj-10/op.PNG" class="sr-only reference-description">
+                    <p>Developed a secure password management system using a symmetric encryption algorithm called Advanced Encryption Standard (AES) 
+                       in Java that encrypts the password entered by the user and decrypts and verifies it if the password is correct using an autogenerated key</p>
                     <p class="buttons text-center">
-                      <a href="https://github.com/chaitanya1731/Naive-Bayes---Machine-Learning" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
+                      <a href="https://github.com/chaitanya1731/Secure-Password-Management-using-AES" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
                     </p>
                   </div>
                 </div>
@@ -366,15 +372,15 @@
                 <div class="reference"><a href="#"><img src="img/prj-5/main.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
-                        <h3 class="h4 reference-title">Blood Bank Management System</h3>
-                        <p>Java, JSP, Oracle Db 11g, HTML, CSS, XML, JavaScript, Bootstrap, Apache Tomcat server 7</p>
+                        <h3 class="h4 reference-title">Blood Bank Portal</h3>
+                        <p>Java Servlet, JSP, HTML5, Bootstrap3, Apache Tomcat 7, Oracle 11g DB</p>
                       </div>
                     </div></a>
                   <div data-images="img/prj-5/one.PNG,img/prj-5/two.PNG,img/prj-5/three.PNG,img/prj-5/four.PNG" class="sr-only reference-description">
-                    <p>Developed a Web-application in JSP having CRUD functionalities such as Register Donor, 
-                      Register Organization, Login Donor, Login Organization, Display availability of Blood using blood group, 
-                      Connect Donor with Organization, Display Donor Details, and Contact information, etc.</p>
-                    <p>Technologies - Java, JSP, Oracle Db 11g, HTML, CSS, XML, JavaScript, Bootstrap, Apache Tomcat Server 7</p>
+                    <p>Developed a web application in Java Servlet and JSP having functionalities such as authorizing Donor & Organization, login donor & organization, 
+                      search donors by blood group, display blood availability by blood group, and connect the donor and organization</p>
+                    <p>Designed a highly interactive user-friendly website using HTML5, and Bootstrap3 template, data stored in Oracle 11g database and deployed using Apache Tomcat Server 7</p>
+                    <p>Technologies - Java Servlet, JSP, HTML5, Bootstrap3, Apache Tomcat 7, Oracle 11g DB</p>
                     <p class="buttons text-center">
                       <a href="https://github.com/chaitanya1731/Blood-Bank-Management-in-JSP" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
                     </p>
@@ -386,14 +392,14 @@
                     <div class="overlay">
                       <div class="inner">
                         <h3 class="h4 reference-title">Internet Banking System</h3>
-                        <p>Java, Servlet, Oracle Db 11g, HTML, Apache Tomcat server 7</p>
+                        <p>Java Spring Boot MVC, HTML5, Oracle 11g DB, Apache Tomcat server 7</p>
                       </div>
                     </div></a>
                   <div data-images="img/prj-6/one.PNG,img/prj-6/two.PNG,img/prj-6/three.PNG,img/prj-6/four.PNG" class="sr-only reference-description">
-                    <p>Developed a Web-application in Java Servlet providing all the Internet Banking Functionalities such as 
-                      Register User, Login User, Credit, Deposit, Transaction Details, Banking statements, 
-                      etc. and deployed using Apache Tomcat Server 7.</p>
-                    <p>Technologies - Java, Servlet, Oracle Db 11g, HTML, Apache Tomcat server 7</p>
+                    <p>Developed a Web-application in Spring Boot and MVC architecture providing all the internet banking functionalities such as register user, login user, 
+                      credit, deposit, view transaction details, banking statements, and stored data in SQL database and deployed using Tomcat 7 server</p>
+                    <p>Implemented user sessions using spring boot sessions to keep track of the customer behavior and store session data for a specific user</p>
+                    <p>Technologies - Java Spring Boot MVC, HTML5, Oracle 11g DB, Apache Tomcat server 7</p>
                     <p class="buttons text-center">
                       <a href="https://github.com/chaitanya1731/Internet-Banking-in-Java" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Code</a>
                     </p>
@@ -405,15 +411,16 @@
                     <div class="overlay">
                       <div class="inner">
                         <h3 class="h4 reference-title">Voice Controlled Personal Assistant and Connecting IOT Devices</h3>
-                        <p>C++, Arduino, Python, Raspberry Pi, Java, Android, NLP, Speech Recognition</p>
+                        <p>Python 2.7, Raspberry Pi, C++, Arduino Uno, Java, Android, Speech Recognition, NLTK, Natural Language Processing</p>
                       </div>
                     </div></a>
                   <div data-images="img/prj-7/arck.jpg, img/prj-7/two.jpg, img/prj-7/arch.png, img/prj-7/iot.png, img/prj-7/speech.png" class="sr-only reference-description">
-                    <p>Built a hardware device that captures the audio presented as the human voice and subsequently processes them using AI techniques to respond individually through Speaker.</p>
-                    <p>Along with the hardware assistant device, we also had one IoT box and an android application. 
+                    <p>Built a hardware device that captures Human voice via microphone and subsequently processes these requests using AI techniques to respond through the speaker</p>
+                    <p>Also developed an Android application along with IOT box consisting of LCD screen, Curtain control & Lights control and demonstrated the interconnectivity between these devices and how they work in a synchronized manner.
                       IoT box consisting of 3 modules – Drapes control, Mini LED screen, and Neo-pixels lights to show how we can turn on/off these modules just by our voice commands or by an android application. 
-                      Also, demonstrated the interconnectivity of all three devices and how they work in a synchronized manner. </p>
-                    <p>Technologies - C++, Arduino, Python, Raspberry Pi, Java, Android, NLP, Speech Recognition</p>
+                    </p>
+                    <p>Integrated google firebase for authentication and user authorization and synchronized assistant, android app, and IOT box by storing user requests using a firebase server</p>
+                    <p>Technologies - Python 2.7, Raspberry Pi, C++, Arduino Uno, Java, Android, Speech Recognition, NLTK, Natural Language Processing</p>
                     <p><strong>Citation - </strong>Abhay Dekate, Chaitanya Kulkarni, Rohan Killedar  "Study of Voice Controlled Personal Assistant Device". International Journal of Computer Trends and Technology (IJCTT) V42(1):42-46, December 2016. ISSN:2231-2803. www.ijcttjournal.org. Published by Seventh Sense Research Group.</p>
                     <p class="buttons text-center">
                       <a href="http://www.ijcttjournal.org/archives/ijctt-v42p107" class="btn btn-outline-primary" target="_blank"><i class="fa fa-code"></i> View Journal</a>
