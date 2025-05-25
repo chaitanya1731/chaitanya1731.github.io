@@ -41,7 +41,7 @@ export function Home() {
                 mx="auto"
               >
                 <Image
-                  src="/images/ck.jpg"
+                  src="./images/ck.jpg"
                   alt="Chaitanya Kulkarni"
                   width="100%"
                   height="auto"
@@ -158,9 +158,12 @@ export function Home() {
                     color={useColorModeValue('gray.700', 'gray.200')}
                   >
                     🚀 Engineering AI at Scale
-                    <Text fontSize="lg" mt={2}>
-                      Enabling modern AI workloads to run seamlessly across distributed, cloud-native systems.
-                    </Text>
+                  </Text>
+                  <Text 
+                    fontSize="lg" 
+                    color={useColorModeValue('gray.700', 'gray.200')}
+                  >
+                    Enabling modern AI workloads to run seamlessly across distributed, cloud-native systems.
                   </Text>
 
                   <Box>
