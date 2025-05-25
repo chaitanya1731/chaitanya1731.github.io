@@ -175,11 +175,11 @@ export function Home() {
                       🔧 With 6+ years of Cloud and AI experience, I specialize in:
                     </Text>
                     <VStack align="start" pl={4} spacing={1}>
-                      <Text fontSize="lg">🌐 Distributed Systems</Text>
-                      <Text fontSize="lg">☁️ Cloud-Native Platforms</Text>
-                      <Text fontSize="lg">📦 Containerization & k8s Orchestration</Text>
-                      <Text fontSize="lg">🧠 Enterprise AI Enablement</Text>
-                      <Text fontSize="lg">🔁 CI/CD & Automation</Text>
+                      <Text fontSize="lg">• Distributed Systems</Text>
+                      <Text fontSize="lg">• Cloud-Native Platforms</Text>
+                      <Text fontSize="lg">• Containerization & k8s Orchestration</Text>
+                      <Text fontSize="lg">• Enterprise AI Enablement</Text>
+                      <Text fontSize="lg">• CI/CD & Automation</Text>
                     </VStack>
                   </Box>
 
